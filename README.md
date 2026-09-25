@@ -3,7 +3,7 @@
 Free/open-source AI video workflow for the ASTRAA series.
 
 ## Goal
-Run LTX-Video from Google Colab using a free GPU when available, with the project stored in GitHub.
+Build a reliable ASTRAA image-to-video workflow with code maintained in GitHub. Codespaces is used for code fixes and testing; a GPU runtime is used only for video generation.
 
 ## Current approach
 - Google Colab + free GPU when available
@@ -11,10 +11,11 @@ Run LTX-Video from Google Colab using a free GPU when available, with the projec
 - Image-to-video workflow
 - Short shots can be extended/assembled in CapCut
 
-## Colab
-Open **ASTRAA_LTX_Colab.ipynb** in Google Colab and run the cells from top to bottom.
+## Development
+Open the repository in GitHub Codespaces. See **CODESPACES.md**.
 
-> Free Colab GPU availability and runtime duration are controlled by Google and are not guaranteed. This repository does not bypass any service limits.
+## GPU generation
+**ASTRAA_LTX_Colab.ipynb** contains the LTX-Video GPU workflow. Free GPU availability and runtime duration are controlled by the provider and are not guaranteed. This repository does not bypass any service limits.
 
 ## Safety
 Never put passwords, API keys, access tokens, or private credentials in this repository.
